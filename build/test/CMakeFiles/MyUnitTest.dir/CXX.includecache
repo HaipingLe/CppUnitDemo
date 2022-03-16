@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hubert/Desktop/CppunitDemo/src/Math.cpp
+Math.hpp
+/home/hubert/Desktop/CppunitDemo/src/Math.hpp
+
+/home/hubert/Desktop/CppunitDemo/test/MathTest.cpp
+MathTest.hpp
+/home/hubert/Desktop/CppunitDemo/test/MathTest.hpp
+
+/home/hubert/Desktop/CppunitDemo/test/MathTest.hpp
+cppunit/extensions/HelperMacros.h
+-
+Math.hpp
+/home/hubert/Desktop/CppunitDemo/test/Math.hpp
+
+/home/hubert/Desktop/CppunitDemo/test/main.cpp
+cppunit/extensions/TestFactoryRegistry.h
+-
+cppunit/ui/text/TestRunner.h
+-
+MathTest.hpp
+/home/hubert/Desktop/CppunitDemo/test/MathTest.hpp
+

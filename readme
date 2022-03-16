@@ -1,0 +1,54 @@
+#[Preparation]
+#Install cppunit to ubuntu
+sudo apt-get install libcppunit-dev
+
+[build]
+1 cd the root directory
+2 mkdir build
+3 cd build;cmake ../
+4 make
+
+[run the test]
+ctest -V
+
+
+=============================================Test Result==============================================
+hubert@ubuntu:~/Desktop/CppunitDemo/build$ ctest -V
+UpdateCTestConfiguration  from :/home/hubert/Desktop/CppunitDemo/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/hubert/Desktop/CppunitDemo/build/DartConfiguration.tcl
+Test project /home/hubert/Desktop/CppunitDemo/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: MyUnitTest
+
+1: Test command: /home/hubert/Desktop/CppunitDemo/build/UnitTest/MyUnitTest
+1: Test timeout computed to be: 10000000
+1: .F.F
+1: 
+1: 
+1: !!!FAILURES!!!
+1: Test Results:
+1: Run:  2   Failures: 2   Errors: 0
+1: 
+1: 
+1: 1) test: MathTestCase::testAdd (F) line: 20 /home/hubert/Desktop/CppunitDemo/test/MathTest.cpp
+1: assertion failed
+1: - Expression: result == 6.0
+1: 
+1: 
+1: 2) test: MathTestCase::testMinus (F) line: 26 /home/hubert/Desktop/CppunitDemo/test/MathTest.cpp
+1: assertion failed
+1: - Expression: result == 1.0
+1: 
+1: 
+1/1 Test #1: MyUnitTest .......................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.03 sec
+========================================================================================================

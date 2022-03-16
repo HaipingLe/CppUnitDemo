@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11  -rdynamic CMakeFiles/Math.dir/src/Math.cpp.o CMakeFiles/Math.dir/src/main.cpp.o  -o Math 

@@ -1,0 +1,36 @@
+Start testing: Aug 05 14:18 CST
+----------------------------------------------------------
+1/1 Testing: MyUnitTest
+1/1 Test: MyUnitTest
+Command: "/home/hubert/Desktop/CppunitDemo/build/UnitTest/MyUnitTest"
+Directory: /home/hubert/Desktop/CppunitDemo/build/test
+"MyUnitTest" start time: Aug 05 14:18 CST
+Output:
+----------------------------------------------------------
+.F.F
+
+
+!!!FAILURES!!!
+Test Results:
+Run:  2   Failures: 2   Errors: 0
+
+
+1) test: MathTestCase::testAdd (F) line: 20 /home/hubert/Desktop/CppunitDemo/test/MathTest.cpp
+assertion failed
+- Expression: result == 6.0
+
+
+2) test: MathTestCase::testMinus (F) line: 26 /home/hubert/Desktop/CppunitDemo/test/MathTest.cpp
+assertion failed
+- Expression: result == 1.0
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MyUnitTest" end time: Aug 05 14:18 CST
+"MyUnitTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 05 14:18 CST

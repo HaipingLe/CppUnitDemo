@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11  -rdynamic CMakeFiles/MyUnitTest.dir/__/src/Math.cpp.o CMakeFiles/MyUnitTest.dir/MathTest.cpp.o CMakeFiles/MyUnitTest.dir/main.cpp.o  -o ../UnitTest/MyUnitTest -lcppunit 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hubert/Desktop/CppunitDemo/src/Math.cpp
+Math.hpp
+/home/hubert/Desktop/CppunitDemo/src/Math.hpp
+
+/home/hubert/Desktop/CppunitDemo/src/main.cpp
+iostream
+-
+
